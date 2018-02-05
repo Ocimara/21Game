@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/21Game.iml" filepath="$PROJECT_DIR$/21Game.iml" />
+      <module fileurl="file://C:\Users\Kleber\AndroidStudioProjects\21Game\21Game.iml" filepath="C:\Users\Kleber\AndroidStudioProjects\21Game\21Game.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Kleber\AndroidStudioProjects\21Game\app\app.iml" filepath="C:\Users\Kleber\AndroidStudioProjects\21Game\app\app.iml" />
     </modules>
   </component>
 </project>
