@@ -37,7 +37,7 @@ class GameFragment : Fragment() {
 
     }
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         val view = inflater!!.inflate(R.layout.fragment_game, container, false)
 
@@ -47,9 +47,10 @@ class GameFragment : Fragment() {
 
         btRecomecar.setOnClickListener({
             iniciarPartida()
-            return view
         })
 
+        iniciarPartida()
+        return view
         //return inflater!!.inflate(R.layout.fragment_game, container, false)
     }
 
@@ -75,7 +76,7 @@ class GameFragment : Fragment() {
         else
         {
             cartas.removeAt(posicaoCartaSeleciona)
-            ivCarta.setImageDrawable(ContextCompat.getDrawable(context,cartaSelecionada.resourceId))
+            ivCarta.setImageDrawable(ContextCompat.getDrawable(context!!,cartaSelecionada.resourceId))
         }
 
     }
